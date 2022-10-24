@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <title>Cadastro cantina URI</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="uri-menu">
+                <img class='logo-img2' src='img/logo_uri.png'>
+            </div>
+
+            <div class="acessos">
+                <ul class="nav-list">
+                    <li><a href="/Admin/index.html">Acesso institucional &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                    <li><a href="/Login/index.html">Login</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <div class="containerCentral">
+        <br><br>
+        <div class="title">
+            <h1>Cadastrar novo usuário</h1><br>
+        </div><br><br><br><br><br><br>
+
+        <div class="containerInput">
+            <div class="boxOne">
+
+
+                <div class="label-float">
+                    <label> Nome completo </label>
+                    <input type="text" name="nome_usuario" id="nome_usuario" placeholder=" " required>
+                </div>
+                <br>
+                <div class="label-float">
+                    <label> Email </label>
+                    <input type="email" name="email_cadastro" id="email_cadastro" placeholder=" " required>
+                </div><br>
+
+                <div class="label-float">
+                    <label> CPF </label>
+                    <input type="integer" name="cpf_usuario" id="cpf_usuario" placeholder=" " required>
+                </div>
+                <br>
+                <div class="label-float">
+                    <label> Número de telefone </label>
+                    <input type="integer" name="telefone_usuario" id="telefone_usuario" placeholder=" " required>
+                </div>
+                <br>
+                <div class="label-float">
+                    <label> Senha </label>
+                    <input type="password" name="senha_cadastro" id="senha_cadastro" placeholder=" " required>
+                </div>
+                <br>
+                <div class="label-float">
+                    <label> Confirmar senha </label>
+                    <input type="password" name="confirmar_senha_cadastro" id="confirmar_senha_cadastro" placeholder=" "
+                        required>
+                </div>
+            </div>
+
+
+            <div class="boxTwo">
+                <div class="label-float">
+                    <label> Código de aluno </label>
+                    <input type="integer" name="codigo_cadastro" id="codigo_cadastro" placeholder=" " required>
+                </div><br>
+
+                <div class="date">
+                    <label> Data de Nascimento:</label>&nbsp;&nbsp;
+                    <input id="date" type="date"><br><br>
+                </div>
+
+                <div class="custom-select" style="width:200px;">
+                    <label for="unidade">Selecionar Unidade</label>
+                    <select name="unidade" id="unidade" required>
+                        <option value="-">-----</option>
+                        <option value="">Erechim</option>
+                        <option value="">Frederico Westphalen</option>
+                        <option value="">Santo Ângelo</option>
+                        <option value="">Santiago</option>
+                        <option value="">São Luiz Gonzaga</option>
+                        <option value="">Cerro Largo</option>
+                    </select>
+                </div><br>
+
+                <div class="custom-select" style="width:200px;">
+                    <label for="campus">Selecionar câmpus</label>
+                    <select name="campus" id="campus" required>
+                        <option value="-">-----</option>
+                        <option value="">Câmpus 1</option>
+                        <option value="">Câmpus 2</option>
+                    </select><br>
+                </div><br>
+
+                <div class="custom-select" style="width:200px;">
+                    <label for="ensino">Selecionar ensino</label>
+                    <select name="ensino" id="ensino" required>
+                        <option value="-">-----</option>
+                        <option value="">Graduação EAD</option>
+                        <option value="">Graduação Presencial</option>
+                        <option value="">Mestrado</option>
+                        <option value="">Doutorado</option>
+                        <option value="">Escola básica</option>
+                        <option value="">Ensino fundamental</option>
+                        <option value="">Ensino médio</option>
+                        <option value="">Ensino técnico ou semelhante</option>
+                    </select><br>
+                </div><br>
+
+                <div class="custom-select" style="width:200px;">
+                    <label for="curso">Curso</label>
+                    <select name="curso" id="curso" required>
+                        <option value="-">-----</option>
+                        <option value="">Administração</option>
+                        <option value="">Agronomia</option>
+                        <option value="">Arquitetura e Urbanismo</option>
+                        <option value="">Biomedicina</option>
+                        <option value="">Ciência da Computação</option>
+                        <option value="">Ciências Biológicas</option>
+                        <option value="">Ciências Contábeis</option>
+                        <option value="">Direito</option>
+                        <option value="">Educação Física</option>
+                        <option value="">Enfermagem</option>
+                        <option value="">Engenharia Agrícola</option>
+                        <option value="">Engenharia Civil</option>
+                        <option value="">Engenharia de Alimentos</option>
+                        <option value="">Engenharia de Produção</option>
+                        <option value="">Engenharia Elétrica</option>
+                        <option value="">Engenharia Mecânica</option>
+                        <option value="">Engenharia Química</option>
+                        <option value="">Farmácia</option>
+                        <option value="">Fisioterapia</option>
+                        <option value="">Medicina</option>
+                        <option value="">Medicina Veterinária</option>
+                        <option value="">Nutrição</option>
+                        <option value="">Odontologia</option>
+                        <option value="">Pedagogia</option>
+                        <option value="">Psicologia</option>
+                        <option value="">Técnico em Enfermagem</option>
+                        <option value="">Técnico em Agroindustria</option>
+                        <option value="">Técnico em Eletromecânica</option>
+                        <option value="">Administração EAD</option>
+                        <option value="">Pedagogia EAD</option>
+                        <option value="">Serviço Social EAD</option>
+                        <option value="">Letras - Língua Portuguesa EAD</option>
+                        <option value="">Biomedicina Semipresencial</option>
+                        <option value="">Ciências Contábeis EAD</option>
+                        <option value="">Téc em Análise e Desenvolvimento de Sistemas EAD</option>
+                        <option value="">Téc em Big Data e Inteligência Analítica EAD</option>
+                        <option value="">Téc em Estética e Cosmética Semipresencial</option>
+                        <option value="">Téc em Gestão Comercial EAD</option>
+                        <option value="">Téc em Gestão de Agronegócios EAD</option>
+                        <option value="">Téc em Gestão de Recursos Humanos EAD</option>
+                        <option value="">Téc em Gestão Financeira EAD</option>
+                        <option value="">Téc em Gestão Pública EAD</option>
+                        <option value="">Téc em Marketing EAD</option>
+                        <option value="">Téc em Processos Gerenciais EAD</option>
+                        <option value="">Téc em Produção Industrial EAD</option>
+                    </select><br>
+                </div>
+
+            </div>
+        </div><br><br><br><br><br>
+
+        <div class="save">
+            <button class="btn-save">Salvar</button><br><br><br><br>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#curso').select2();
+        });
+
+        $(document).ready(function () {
+            $('#ensino').select2();
+        });
+
+        $(document).ready(function () {
+            $('#campus').select2();
+        });
+
+        $(document).ready(function () {
+            $('#unidade').select2();
+        });
+    </script>
+
+
+
+</body>
+
+</html>
