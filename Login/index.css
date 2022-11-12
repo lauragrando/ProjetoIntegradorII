@@ -35,7 +35,6 @@ nav {
 }
 
 
-
 /* BODY: */
 
 body {
@@ -44,7 +43,7 @@ body {
 }
 
 .div-logo {
-  background-color: rgba(245, 235, 235, 0.9);
+  background-color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -105,14 +104,14 @@ button:hover {
   outline: none;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  color:#5c6d85;
+  color: #5c6d85;
 }
 
 .btn-extra:focus {
   background-color: transparent;
   border: none;
   text-decoration: none;
-} 
+}
 
 .btn-extra1 {
   background-color: Transparent;
@@ -123,22 +122,18 @@ button:hover {
   outline: none;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  color:#5c6d85;
+  color: #5c6d85;
 }
 
 .btn-extra1:focus {
   background-color: transparent;
   border: none;
   text-decoration: none;
-} 
-
-
+}
 
 .btn-extra:hover {
   opacity: 0.8;
 }
-
-
 
 .div-user {
   margin-bottom: 25px;
@@ -172,7 +167,7 @@ button:hover {
 
 
 @media (max-width: 798px) {
-  
+
   body {
     overflow-x: hidden;
   }
@@ -250,4 +245,4 @@ button:hover {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 0;
   color: #6C7A89;
-} 
+}
