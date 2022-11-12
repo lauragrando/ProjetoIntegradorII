@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registerAdm.css">
+    <title>Cadastro Administrador</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="uri-menu">
+                <img class='logo-img2' src='img/logo_uri.png'>
+            </div>
+
+            <div class="acessos">
+                <ul class="nav-list">
+                    <li><a href="../Admin/home.html">Home &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                    <li><a href="">Sair</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="containerCentral"><br><br>
+       
+        <div class="title">
+            <h1>Cadastrar novo Administrador</h1><br>
+        </div><br><br><br><br><br><br>
+
+        <div class="containerInput">
+
+            <div class="label-float">
+                <label> Nome completo </label><br>
+                <input type="text" name="nome_usuario" id="nome_usuario" placeholder="" required>
+            </div><br>
+                
+            <div class="label-float">
+                <label> Email </label><br>
+                <input type="email" name="email_cadastro" id="email_cadastro" placeholder="" required>
+            </div><br>
+
+            <div class="label-float">
+                <label> CPF </label><br>
+                <input type="integer" name="cpf_usuario" id="cpf_usuario" placeholder="" required>
+            </div> <br>
+               
+            <div class="label-float">
+                <label> Número de telefone </label><br>
+                <input type="integer" name="telefone_usuario" id="telefone_usuario" placeholder="" required>
+            </div><br>
+                
+            <div class="label-float">
+                <label> Senha </label><br>
+                <input type="password" name="senha_cadastro" id="senha_cadastro" placeholder="" required>
+            </div><br>
+                
+            <div class="label-float">
+                <label> Confirmar senha </label><br>
+                <input type="password" name="confirmar_senha_cadastro" id="confirmar_senha_cadastro" placeholder="" required>
+            </div><br>
+            
+            <div class="label-float">
+                <label> Código de funcionário </label><br>
+                <input type="integer" name="codigo_cadastro" id="codigo_cadastro" placeholder="" required>
+            </div><br>
+
+        </div><br>
+
+        <div class="save">
+            <a href="../Admin/home.html"><button class="btn-save" type="text">Salvar</a></button><br>
+        </div>
+    
+    </div>
+
+</body>
+</html>

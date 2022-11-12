@@ -35,7 +35,7 @@ nav {
 }
 
 
-/* BODY */
+/* BODY: */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -43,64 +43,105 @@ body {
 }
 
 h1 {
-  color: white;
-  font-size: 15px;
+  color: #405889;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.div-logo {
-  background-color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 40px;
-  width: 300px;
-  border-radius: 15px;
-  color: #fff;
-  border-radius: 35px;
-  align-items: center;
-}
-
-.btn-enter {
-  background-color: #40719e;
-  border: none;
-  padding: 15px 25px 15px 25px;
-  border-radius: 15px;
-  color: white;
   font-size: 15px;
-  margin-top: 35px;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  align-items: center;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 button:hover {
   cursor: pointer;
 }
 
-.img-logo {
-  width: 250px;
-  margin-bottom: 35px;
-  align-items: center;
-}
-
-.box-home {
-  text-align: center;
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.btn-bottom {
-  display: block;
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
+.container {
+  flex-direction: row-reverse;
   justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+}
+
+.div-box2 {
   align-items: center;
+  width: 1000px;
+  background-color: #fff;
+  border: none;
+  padding: 13px 13px 0px 13px;
+  position: ;
+  border-radius: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+}
+
+td .data-label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3b434f;
+  font-size: 15px;
+  justify-content: center;
+}
+
+table {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  right: 50%;
+  left: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #808a97;
+  font-size: 15px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  min-width: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 15px 15px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  right: 50%;
+  left: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #25272b;
+  font-size: 15px;
+  width: 1000px;
+}
+
+thead {
+  background-color: #6C7A89;
+}
+
+.styled-table thead tr {
+  background-color: #6C7A89;
+  color: #ffffff;
+  text-align: center;
+}
+
+.left {
+  border-top-left-radius: 15px;
+}
+
+.right {
+  border-top-right-radius: 15px;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 15px 35px;
+  text-align: center;
+}
+
+.styled-table tbody tr {
+  border-bottom: 0px solid #ffffff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
 }
 
 .btn-extra {
+  align-items: center;
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
@@ -109,13 +150,16 @@ button:hover {
   outline: none;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  color: #5c6d85;
+  color: #25272b;
+  padding: 10px;
+  font-size: 15px;
 }
 
 .btn-extra:focus {
   background-color: transparent;
   border: none;
   text-decoration: none;
+  align-items: center;
 }
 
 .btn-extra1 {
@@ -128,46 +172,18 @@ button:hover {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: #5c6d85;
+  align-items: center;
 }
 
 .btn-extra1:focus {
   background-color: transparent;
   border: none;
   text-decoration: none;
+  align-items: center;
 }
 
 .btn-extra:hover {
   opacity: 0.8;
-}
-
-.div-user {
-  margin-bottom: 25px;
-}
-
-.drain-box {
-  margin-left: 15px;
-}
-
-.mobile-menu {
-  display: none;
-  cursor: pointer;
-}
-
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: #fff;
-  margin: 8px;
-  transition: 0.3s;
-}
-
-.uri-menu div {
-  width: 32px;
-  height: 2px;
-  background: #fff;
-  margin: 12px;
-  transition: 0.3s;
-  position: center;
 }
 
 

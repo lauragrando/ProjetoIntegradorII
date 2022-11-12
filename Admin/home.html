@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home Admin</title>
+</head>
+
+<body>
+    <header>
+        <nav>   
+        <div class="uri-menu">
+            <img class='logo-img2' src='img/logo_uri.png'></div>
+        
+        <ul class="nav-list">
+            <li><a href="../Admin/index.html">Sair</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <div class="div-box1">
+            <div class="box-cadastros">
+                <a href="../Admin/registerAdm.html"><button class='btn-extra' type="text">Cadastrar administrador</button></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href=""><button class='btn-extra' type="text">Cadastrar produto</button></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="../Admin/pedidosPendentes.html"><button class='btn-extra' type="text">Pedidos pendentes</button></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;           
+                <a href="../Admin/relacaoVendas.html"><button class='btn-extra' type="text">Relação de vendas</button></a>
+            </div>
+        </div><br>        
+        
+        <div class="div-box2">
+            <table class="styled-table"> 
+                <h1>Produtos disponíveis</h1>
+                <thead>
+                    <tr>
+                        <th class="left">Código</th>
+                        <th>Categoria</th>
+                        <th>Quantidade</th>
+                        <th>Produto</th>
+                        <th class="right">Preço</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td data-label="codigo">1</td>
+                      <td data-label="categoria">guloseimas</td>
+                      <td data-label="quantidade">50</td>
+                      <td data-label="produto">chocolate trento de avelã</td>
+                      <td data-label="preco">R$3,00</td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="codigo">2</td>
+                        <td data-label="categoria">guloseimas</td>
+                        <td data-label="quantidade">25</td>
+                        <td data-label="produto">chocolate trento de morango</td>
+                        <td data-label="preco">R$3,00</td> 
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
